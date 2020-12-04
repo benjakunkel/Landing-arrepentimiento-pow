@@ -29,6 +29,13 @@
     left: 50px;
     top: 0px;
   }
+  @media (max-width: 991px) { 
+    .navbar-pow .navbar-brand img {
+      width: 87px;
+      height: 30px;
+      left: 10px;
+    }     
+  }
   .btn-contacto{
     font-family: 'DM Sans', sans-serif;
     position: relative;
@@ -41,8 +48,15 @@
     font-size: 15px;
     right: 57px;
   }
+  @media (max-width: 991px) { 
+    .btn-contacto{
+      width: 160px;
+      height: 43px;
+      right: 0px;}
+  }
 /* Fin Header */
 /* --------------------------------------------------------------------------------------------------------------- */
+
 /* Primer bloque */
 
   .div-azul{
@@ -84,7 +98,8 @@
 /* Segundo bloque */
  
   .ventajasimg{
-   width: 100%;
+    width: 102%;
+    margin-left: -21px;
  }
 
 /* FIN Segundo bloque */
@@ -99,7 +114,17 @@
   line-height: 42px;
   text-align: center;
   color: black;
+  margin-top: 40px;
+}
+.detail-btn{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration-line: underline;
 }
 
-/* FIN Segundo bloque */
+/* FIN cuarto bloque */
 
