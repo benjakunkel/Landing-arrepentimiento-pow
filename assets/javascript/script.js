@@ -1,25 +1,19 @@
 // CAMBIO COLOR HEADER
 $(function() {
-    console.log("hello")
+
     $(window).on("scroll", function() {
-        console.log("asdasd")
         if($(window).scrollTop() > 700) {
+            // Cuando el scroll top se a de 700 agrego:
+            //Clase .active con fondo blanco
             $(".header").addClass("active");
+            //Logo negro
+            $('#logo').attr('src','assets/img/logo-pow.svg');
         } else {
-            //remove the background property so it comes transparent again (defined in your css)
+            //Fondo transparente
            $(".header").removeClass("active");
+           //Logo blanco
+           $('#logo').attr('src','assets/img/logo-pow-blanco.svg')
         }
     });
 });
 
-// CAMBIO DE LOGO
-$(function(){
-    $(document).scroll(function(){
-        if($(this).scrollTop() < 700) {
-            $('#logo').attr('src','assets/img/logo-pow-blanco.svg')
-        }
-        if($(this).scrollTop() > 700) {        
-         $('#logo').attr('src','assets/img/logo-pow.svg');   
-        }
-    });
-});
