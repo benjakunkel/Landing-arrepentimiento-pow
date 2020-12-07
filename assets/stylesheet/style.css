@@ -1,3 +1,8 @@
+body{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
 /* Header */
   .navbar-pow {
     justify-content: space-between;
@@ -17,6 +22,15 @@
   }
   .active {
     background: white;
+  }
+  .active .btn-contacto{
+    border:1px solid #0099FF ;
+    background-color: white;
+    color: #0099FF;
+  }
+  .active .btn-contacto:hover{
+    background-color: #0099FF;
+    color: white;
   }
 
   .navbar-pow .navbar-collapse {
@@ -54,6 +68,10 @@
       height: 43px;
       right: 0px;}
   }
+  .btn-contacto:hover{
+    background-color: white;
+    color: black;
+  }
 /* Fin Header */
 /* --------------------------------------------------------------------------------------------------------------- */
 
@@ -71,6 +89,57 @@
     position: relative;
     top: 180px;
     left: 90px;
+  }
+
+  .text-principal{
+    color: white;
+    position: relative;
+    top: 203px;
+    left: 114px;
+    font-size: 46px;
+  }
+  #flechita{
+    position: relative;
+    left: 460px;
+    top: 115px;
+    width: 103px;
+  }
+  .porcentaje{
+    color: white;
+    background: #0099FF;
+    width: 419px;
+    border-radius: 90px;
+    padding-left: 23px;
+    position: relative;
+    top: 96px;
+    left: 92px;
+  }
+  
+  .text-porc{
+    margin: 0;
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 45px;
+  }
+
+  .info-porc{
+    width: 241px;
+    font-size: 14px;
+    margin-left: 17px;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .autogestionable{
+    color: white;
+    position: relative;
+    top: 203px;
+    left: 89px;
+    font-size: 46px;
+    border: 2px solid;
+    width: 388px;
+    padding-left: 21px;
+    border-radius: 90px;
   }
 
   .phone-pow-desk{
