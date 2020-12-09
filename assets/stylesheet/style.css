@@ -258,7 +258,7 @@ body{
     width: 100%;
  }
  .ventajasimg-mobile{
-   margin-top: 561px;
+    margin-top: 170px;
 }
 
 /* FIN tercer bloque */
@@ -350,9 +350,9 @@ body{
 
 /* Sexto bloque */
 
-  .proyect-bg-mobile{
-    width: 110%;
-    margin-left: -18px;
+  .proyect-mobile{
+    width: 100%;
+    
   }
   .proyect-bg-img{
     background-image: url("../img/proyecto.svg"); 
@@ -408,6 +408,11 @@ body{
     width: 39%;
     margin-left: 32%;
   }
+  .partnership-mobile{
+    width: 96%;
+    margin-left: 6px;
+    margin-top: 34px;
+  }
 /* FIN SEPTIMO bloque */
 
 /* Footer */
@@ -432,25 +437,52 @@ body{
 
 /* MEDIA QUERY MOBILE */
 @media (max-width: 991px) { 
+  .est1-title{
+    font-size: 26px;
+    line-height: 34px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  .trans{
+    margin-left: 5%;
+  }
   .est1-p{
-    width: 227px;
+    width: 309px;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-bottom: 72px;
+  }
+  .est2-title{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
   }
   .est2-porcentajes{
-    font-size: 26px;
+    font-size: 40px;
+  }
+  .mt40{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .center-flex{
+    margin-left: 5%;
   }
   .borrar-div{
-    display:none
+    width: 100%!important;
+    height: 600px!important;
+    background-color: black!important;
+    margin-left: 0!important;
   }
   .background-img-div {
     background-image: url("../img/mobile/check-mobile.svg");
     margin-top: 80px;
   }
-  .btn-form-new{
-
-  }
   .inf-sobre-btn-title{
     font-weight: normal;
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 34px;
     color: #000000;
     margin-top: 60px;
     width: 80%;
@@ -469,5 +501,23 @@ body{
     padding-left: 4%;
     padding-right: 4%;
   }
+  .inf-sobre-btn-p{
+    font-weight: 500;
+    font-size: 16px;
+    width: 90%;
+    line-height: 21px;
+    color: #969696;
+    margin-left: 6%;
+  }
+  .partnerships {
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 79px;
+    width: 84%;
+    margin-left: 7%;
+  }
+  .como-funciona{
+    margin-top: 50px;
+  }
 }
-
