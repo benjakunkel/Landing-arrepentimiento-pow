@@ -2,7 +2,7 @@
 $(function() {
 
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 700) {
+        if($(window).scrollTop() > 650) {
             // Cuando el scroll top se a de 700 agrego:
             //Clase .active con fondo blanco
             $(".header").addClass("active");
