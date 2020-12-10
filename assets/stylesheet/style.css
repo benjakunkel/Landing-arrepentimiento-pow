@@ -529,10 +529,11 @@ body{
     height: 1011px;
   }
   .phone-pow {
-    position: relative;
+    position: absolute;
     width: 80%;
-    top: 80px;
+    top: 657px;
     left: 11%;
+}
   }
   .text-principal{
     color: white;
