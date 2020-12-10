@@ -27,8 +27,8 @@
   <!-- Primer bloque -->
   <div class="div-azul col-md-12 col-sm-12">
     <div class="row">
-      <!-- Texto desk -->
-      <div class="col-md-6 d-none d-sm-none d-md-block">
+      <!-- Texto principal -->
+      <div class="col-md-6">
         <h1 class="text-principal">Botón de arrepentimiento</h1>
         <h1 class="autogestionable">autogestionable</h1>
         <img id="flechita" src="assets/img/flechita.svg" alt="flechita"/>
@@ -36,21 +36,39 @@
           <p class="text-porc"> 98%</p>
           <p class="info-porc">De los arrepentimientos se resuelven a través del flujo automatizado.</p>
         </div>
-        <div class="d-flex info-p-bloque-div">
-          <div class="user-ico mr-4">
-            <img src="assets/img/user-ico.svg" alt="user-ico" class="mb-4">
-            <p class="widht-text">Autogestión de arrepentimiento desde “Mi cuenta” por parte del usuario.</p>
+
+        <!-- Iconos con texto DESKTOP -->
+        <div class="d-none d-sm-none d-md-block">
+          <div class="d-flex info-p-bloque-div">
+            <div class="user-ico mr-4">
+              <img src="assets/img/user-ico.svg" alt="user-ico" class="mb-4">
+              <p class="widht-text">Autogestión de arrepentimiento desde “Mi cuenta” por parte del usuario.</p>
+            </div>
+            <div class="circulo-blanco ml-4">
+              <img src="assets/img/circulo-blanco.svg" alt="Circulo" class="mb-4">
+              <p class="widht-text">Logística inversa,  devolución de dinero y comunicación de avances automatizadas.</p>
+            </div>
           </div>
-          <div class="circulo-blanco ml-4">
-            <img src="assets/img/circulo-blanco.svg" alt="Circulo" class="mb-4">
-            <p class="widht-text">Logística inversa,  devolución de dinero y comunicación de avances automatizadas.</p>
+        </div>
+
+        <!-- Iconos con texto Mobile -->
+        <div class="d-sm-blockd d-md-none">
+          <div class=" info-p-bloque-div">
+            <div class="user-ico mr-4">
+              <img src="assets/img/user-ico.svg" alt="user-ico" class="">
+              <p class="widht-text">Autogestión de arrepentimiento desde “Mi cuenta” por parte del usuario.</p>
+            </div>
+            <div class="circulo-blanco">
+              <img src="assets/img/circulo-blanco.svg" alt="Circulo" class="circulo-blanco">
+              <p class="widht-text">Logística inversa,  devolución de dinero y comunicación de avances automatizadas.</p>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Img  -->
-        <!-- Img desktop -->
-          <img class="phone-pow-desk d-none d-sm-none d-md-block" src="assets/img/phone-pow.svg" alt="phone-pow"/>
+        <!-- Img celular desktop -->
+          <img class="phone-pow" src="assets/img/phone-pow.svg" alt="phone-pow"/>
       
     </div>
   </div>  
@@ -61,7 +79,7 @@
   <div class="Segundo-bloque col-md-12 col-sm-12 est-1-div">
     <div class="row">
       <!-- estadisticas 1 -->
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 bg-white">
         <h1 class="est1-title">¿Por qué es importante la autogestión?</h1>
         <h4 class="trans">Transacciones</h4>
         <p class="est1-p">2020 espera cerrar un <span style="font-size:26px;color:#0099FF; ">+230% </span> en pedidos vs LY Grandes eventos/picos de venta alcanzan variaciones de +140% artículos vs LY.</p>
@@ -212,7 +230,7 @@
   <!-- Fin Cuarto bloque -->
 
   <!--Quinto Bloque -->
-  <div class="col-md-12 col-sm-12">
+  <div class="col-md-12 col-sm-12" style="background-color: #F7F9FB;">
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <h2 class="inf-sobre-btn-title">¿Qué es el botón de arrepentimiento?</h2>
@@ -261,30 +279,61 @@
         <button type="submit" class="btn btn-form-new">Enviar mensaje</button>
       </form>
     </div>
+    
     <!--partnerships estratégicos-->
-    <h2 class="partnerships">Este proyecto es posible gracias a nuestros partnerships estratégicos</h2>
-    <img src="assets/img/mp-and.svg" class="d-none d-sm-none d-md-block" style="margin-top: 40px; margin-left: 33%"alt="MercadoPago-Andreani">
-    <img src="assets/img/mobile/partnership-mobile.svg" class="d-md-none partnership-mobile" alt="MercadoPago-Andreani">
-  <!--Fin septimo Bloque -->
+    <div class="div-gris" style="background-color: #F7F9FB; padding-bottom: 100px;">
+      <h2 class="partnerships">Este proyecto es posible gracias a nuestros partnerships estratégicos</h2>
+      <img src="assets/img/mp-and.svg" class="d-none d-sm-none d-md-block" style="margin-top: 40px; margin-left: 33%"alt="MercadoPago-Andreani">
+      <img src="assets/img/mobile/partnership-mobile.svg" class="d-md-none partnership-mobile" alt="MercadoPago-Andreani">
+    </div>
+    
+    <!--Fin septimo Bloque -->
 
  
-  <!--Footer -->
+    <!--Linea pre footer -->
     <div class="linea-separadora"></div>
-    <div class="d-flex justify-content-around">
-      <div class="logo mt-3">
-        <img src="assets/img/logo-pow-footer.svg" alt="">
+    
+    <!--Footer desk -->
+    <div class="d-none d-sm-none d-md-block">
+      <div class="d-flex justify-content-around">
+        <div class="logo mt-3">
+          <img src="assets/img/logo-pow-footer.svg" alt="">
+        </div>
+        <div class="footer-text">
+          <p>Cortina 120, Buenos Aires, Argentina.</p>
+        </div>
+        <div class="footer-text">
+          <p> +54 (011) 2146-9663</p> 
+        </div>
+        <div class="footer-text">
+          <p>2020@Pow. Todos los derechos reservados</p>
+        </div>
       </div>
-      <div class="footer-text">
+    </div>
+    <!--Fin Footer desk -->
+
+    <!--Footer mobile -->
+    <div class="d-md-none">
+      <div class="d-flex justify-content-around">
+        <div class="logo mt-3">
+          <img src="assets/img/logo-pow-footer.svg" alt="">
+        </div>
+        <div class="footer-text mt-4">
+          <p> +54 (011) 2146-9663</p> 
+        </div>
+      </div>
+      <div class="footer-text text-center">
         <p>Cortina 120, Buenos Aires, Argentina.</p>
       </div>
-      <div class="footer-text">
-        <p> +54 (011) 2146-9663</p> 
-      </div>
-      <div class="footer-text">
+      <div class="footer-text text-center">
         <p>2020@Pow. Todos los derechos reservados</p>
       </div>
     </div>
-  <!--Fin Footer -->
+    <!--FIN Footer mobile -->
+
+
+
+
 
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
