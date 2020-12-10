@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="assets/stylesheet/swiper.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/stylesheet/slider.css">
     <link rel="stylesheet" href="assets/stylesheet/style.css">
 </head>
@@ -156,7 +157,7 @@
     <!--INFO DE VER DETALLES -->
     <div class="collapse" id="verDetalles">
       <!--ACORDEON -->
-      <div id="accordion" style="margin-left: 111px;">
+      <div id="accordion" class="acordeon-desk">
         <h2 class="detail-process">Detalle del proceso</h2>
         <!-- OPCIONES DEL ACORDEON -->
         <!-- 1 -->
@@ -203,9 +204,13 @@
           </button>
           </h5>
         </div>
-        <div id="opcion5" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div id="opcion5" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
           <div class="">
-            fahshsdg
+            <ul>
+              <li class="li-sublist"> a. Generación de etiqueta de retiro y envío</li>
+              <li class="li-sublist"> b. Envío de instrucciones de embalaje a cliente</li>
+              <li class="li-sublist"> c. Alta de retiro por domicilio via integracion con Correo</li>
+            </ul>
           </div>
         </div>
       <!-- Agregar otra ABAJO DE ESTA LINEA --> 
@@ -229,7 +234,7 @@
     <!-- Agregar otra ABAJO DE ESTA LINEA -->
     <!-- 8 -->
     <div class="" id="headingOne">
-      <h5 class="mb-0">
+      <h5 class="mb-4">
       <button class="btn btn-list-opt mt-2" data-toggle="collapse" data-target="#opcion8" aria-expanded="true" aria-controls="opcion8">
         <span style="color:#3E70D9">8. </span> Comunicación resumen y fin de gestión
       </button>
@@ -242,10 +247,59 @@
   </div>
 
   <!-- SLIDERR --> 
-  <div class="borrar-div" style="    width: 79%;
-  margin-left: 167px;
-  height: 800px;
-  background-color: black;">  </div>
+  <div class="wrap">
+    <div class="wrap-inner">
+  
+      <div class="swiper-outter">
+        <div id="video-swiper" class="swiper-container">
+          <div class="swiper-wrapper">
+  
+            <div class="swiper-slide" id="video1">
+              <div class="video-container">
+                <div class="yt-player" data-id="5Kt9GDWmRv0"></div>
+              </div>
+            </div>
+  
+            <div class="swiper-slide" id="video2">
+              <div class="video-container">
+                <div class="yt-player" data-id="NVEM73Kq5kM"></div>
+              </div>
+            </div>
+  
+            <div class="swiper-slide" id="video3">
+              <div class="video-container">
+                <div class="yt-player" data-id="Dkbsr9PLJj0"></div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="col-md-12 col-sm-12 desk-thumb ">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <a href="#video1">
+          <img src="assets/img/123asd.svg" class="center" alt="video1">
+          <p class="desk-thumb-p" >Arrepentimiento total</p>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <a href="#video2">
+          <img src="assets/img/123asd.svg" class="center" alt="video2">
+          <p class="desk-thumb-p">Arrepentimiento parcial</p>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <a href="#video3">
+          <img src="assets/img/123asd.svg" class="center" alt="video3">
+          <p class="desk-thumb-p" >Cancelación pre-despacho</p>
+        </a>
+      </div>
+    </div>
+  </div>
   <!-- Fin Slider --> 
   <!-- Fin Cuarto bloque -->
 
@@ -398,6 +452,7 @@
     <!--FIN Footer mobile -->
 
   <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/javascript/script.js"></script>

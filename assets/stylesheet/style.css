@@ -302,6 +302,19 @@ body{
   line-height: 42px;
   text-align: center;
   color: black;
+  margin-top: 50px;
+}
+.li-sublist{
+  margin-top: 5px;
+  font-size: 20px;
+  line-height: 31px;
+  color: #6D6D6D;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 1%;
+}
+.acordeon-desk{
+  margin-left: 111px;
 }
 .detail-btn{
   font-style: normal;
@@ -310,6 +323,7 @@ body{
   line-height: 26px;
   text-align: center;
   text-decoration-line: underline;
+  margin-bottom: 50px;
 }
 
 .detail-process{
@@ -350,7 +364,27 @@ body{
     width: 61%;
   }
   
+  .desk-thumb{
+    padding-left: 21%;
+    padding-right: 21%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
+  .desk-thumb-p{
+    color:#969696;
+    text-align: center;
+  }
+  a:active a{
+    color: blue;
+  }
+
   .background-img-div{
     background-image: url("../img/time-arr.svg");
     background-repeat: no-repeat;
@@ -682,6 +716,9 @@ body{
     color: #969696;
     margin-left: 6%;
   }
+  .acordeon-desk{
+    margin-left: 0px;
+  }
   .btn-res {
     left: 5%;
   }
@@ -706,7 +743,30 @@ body{
     display: block;
     margin-top: 0px;
   }
+  .btn-list-opt{
+    text-align: left;
+    font-size: 14px;
+  }
+  .li-sublist {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 31px;
+    color: #6D6D6D;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0%;
+  }
+  .detail-process {
+    font-size: 21px;
+    line-height: 42px;
+    margin-left: 10px;
+    color: #0099FF;
+  }
 }
+
+
+
+
 /* MEDIA QUERY MOBILE EXTRA SMALL*/
 @media (max-width: 360px){
   .text-principal{
