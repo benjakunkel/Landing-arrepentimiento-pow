@@ -477,7 +477,7 @@ body{
   }
   .btn-form-new{
     width: 262px;
-    margin-left: 20%;
+    margin-left: 22%;
     height: 47px;
     left: 577px;
     top: 5878px;
@@ -687,7 +687,8 @@ body{
   }
 
   .btn-form-new{
-    margin-left: 12%;
+    width: 253px;
+    margin-left: 57px;
   }
 
   .partnerships {
@@ -740,5 +741,8 @@ body{
     font-size: 12px;
     margin-left: 1%;
     margin-bottom: 88px;
+  }
+  .btn-form-new{
+    margin-left: 5%;
   }
 }
