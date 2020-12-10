@@ -117,7 +117,27 @@
 
    <!--Tercer bloque -->
     <!-- desk img -->
-      <img class="ventajasimg d-none d-sm-none d-md-block mt-4" src="assets/img/ventajas.svg" alt="ventajas"/>
+    <div class="ventajas-div mt-4 ">
+      <h2 class="vent-desk-title">Ventajas de la automatización</h2>
+      <div class="d-flex justify-content-around align-items-center top-35">
+        <div class="reloj">
+          <img src="assets/img/reloj-vent.svg" alt="reloj" class="vent-img">
+          <p class="vent-desk-p">Optimización de tiempos y costos</p>
+        </div>
+        <div class="user-ico">
+          <img src="assets/img/user-auri.svg" alt="atencion-al-cliente" class="vent-img">
+          <p class="vent-desk-p">Reducción de intervención humana</p>
+        </div>
+        <div class="escalabilidad">
+          <img src="assets/img/escalabilidad.svg" alt="escalabilidad" class="vent-img">
+          <p class="vent-desk-p">Escalabilidad</p>
+        </div>
+        <div class="experiencia">
+          <img src="assets/img/tic.svg" alt="" class="vent-img">
+          <p class="vent-desk-p">Buena experiencia a nuestro clientes</p>
+        </div>
+      </div>
+    </div>
     <!-- mobile img -->
       <img class="ventajasimg-mobile d-md-none" src="assets/img/mobile/ventajas-mobile.svg" alt="ventajas"/>  
   <!-- Fin tercer bloque -->
@@ -230,21 +250,67 @@
   <!-- Fin Cuarto bloque -->
 
   <!--Quinto Bloque -->
+  
   <div class="col-md-12 col-sm-12" style="background-color: #F7F9FB;">
     <div class="row">
+      <!--Que es el boton? -->
       <div class="col-md-6 col-sm-12">
         <h2 class="inf-sobre-btn-title">¿Qué es el botón de arrepentimiento?</h2>
         <p class="inf-sobre-btn-p">Obligación para los proveedores que comercialicen bienes y servicios a través de páginas o aplicaciones web de publicar un link denominado “Botón de Arrepentimiento”, mediante el cual los consumidores puedan solicitar la revocación de la aceptación del producto comprado o del servicio contratado.</p>
         <a href="http://www.google.com.ar" class="btn-res">Ver resolución</a>
       </div>
-      <div class="col-md-6 col-sm-12 background-img-div"></div>
+      
+      <!--Preguntas y respuestas desktop -->
+      <div class="d-md-block col-md-6 col-sm-12 background-img-preguntas-frec">
+        <div class="preguntas-frecuentes-div">
+          <!--pregunta 1 -->
+          <h2 class="preguntas-f-title">¿Hasta cuando puede un usuario arrepentirse?</h2>
+          <p class="preguntas-f-p">Hasta 10 días corridos posteriores a la entrega de su pedido.</p>
+          <!--pregunta 2 -->
+          <h2 class="preguntas-f-title">¿Quién asume los costos del arrepentimiento si los hubiera?</h2>
+          <p class="preguntas-f-p">La marca.</p>
+          <!--pregunta 3 -->
+          <h2 class="preguntas-f-title">¿Dónde debe ubicarse el botón?</h2>
+          <p class="preguntas-f-p">En Home/Página de inicio.</p>
+          <!--pregunta 4 -->
+          <h2 class="preguntas-f-title">¿Qué obligación tengo como marca al recibir esta solicitud?</h2>
+          <p class="preguntas-f-p">Confirmar al cliente en un lapso no mayor a 24 hs su identificador de trámite y tener implementado el sistema para el 04/12/2020 obligatoriamente.</p>
+        </div>
+      </div>
     </div>
   </div>
   <!--Fin Quinto Bloque -->
 
   <!--Sexto Bloque -->
     <!--div con img-->
-      <div class="proyect-bg-img d-none d-sm-none d-md-block"></div>
+      <div class="proyect-bg-blue d-none d-sm-none d-md-block col-md-12">
+        <div class="row">
+            <div class="col-md-6">
+              <h2 class="proyects-title">Este proyecto se suma a nuestra herramientas de automatización</h2>
+              <p class="proyects-p">Y procesos para fidelizar al cliente y cuidar la rentabilidad del canal:</p>
+            </div>
+            <div class="col-md-6">
+              <div class="center-list">
+                <div class="d-flex">
+                  <div class="proyects-circle"></div>
+                  <h2 class="proyect-list-item">Cambios Autogestionables</h2>
+                </div>
+                <div class="d-flex">
+                  <div class="proyects-circle"></div>
+                  <h2 class="proyect-list-item">Log in con código</h2>
+                </div>
+                <div class="d-flex">  
+                  <div class="proyects-circle"></div>
+                  <h2 class="proyect-list-item">Pick up in store realtime</h2>
+                </div>
+                <div class="d-flex">
+                  <div class="proyects-circle"></div>
+                  <h2 class="proyect-list-item">Disponibilidad de stock en locales </h2>
+                </div> 
+              </div>
+            </div>
+        </div>  
+      </div>
     <!--img-->
       <img src="assets/img/mobile/proyecto-mobile.svg" class="d-md-none proyect-mobile" alt="">
   <!--Fin Sexto Bloque -->
@@ -330,10 +396,6 @@
       </div>
     </div>
     <!--FIN Footer mobile -->
-
-
-
-
 
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
