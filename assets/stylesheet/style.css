@@ -39,10 +39,12 @@ body{
     border:1px solid #0099FF ;
     background-color: white;
     color: #0099FF;
+    text-decoration: none;
   }
   .active .btn-contacto:hover{
     background-color: #0099FF;
     color: white;
+    text-decoration: none;
   }
 
   .navbar-pow .navbar-collapse {
@@ -65,20 +67,25 @@ body{
   .btn-contacto{
     font-family: 'DM Sans', sans-serif;
     position: relative;
-    width: 194px;
-    height: 52px;
+    right: 43px;
     border-radius: 65px;
-    border: 0;
     color: white;
     background-color: #0099FF;
-    font-size: 15px;
-    right: 57px;
+    padding: 8px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
   @media (max-width: 991px) { 
     .btn-contacto{
-      width: 160px;
-      height: 43px;
-      right: 0px;}
+      width: 175px;
+      right: 0px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 11px;
+      padding-bottom: 10px;
+    }
   }
   .btn-contacto:hover{
     background-color: white;
@@ -105,73 +112,78 @@ body{
   .text-principal{
     color: white;
     position: relative;
-    top: 203px;
-    left: 114px;
+    top: 211px;
+    left: 107px;
     font-size: 46px;
   }
   #flechita{
     position: relative;
-    left: 460px;
-    top: 115px;
+    left: 497px;
+    top: 123px;
     width: 103px;
   }
   .porcentaje{
     color: white;
     background: #0099FF;
-    width: 419px;
+    width: 478px;
     border-radius: 90px;
     padding-left: 23px;
     position: relative;
-    top: 96px;
+    top: 121px;
     left: 92px;
   }
   
   .text-porc{
     margin: 0;
-    margin-top: 7px;
+    margin-top: 3px;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 50px;
   }
 
   .info-porc{
-    width: 241px;
-    font-size: 14px;
+    width: 278px;
     margin-left: 17px;
     margin-top: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
   }
 
   .autogestionable{
     color: white;
     position: relative;
-    top: 203px;
+    top: 219px;
     left: 89px;
-    font-size: 46px;
+    font-size: 50px;
     border: 2px solid;
-    width: 388px;
-    padding-left: 21px;
+    width: 428px;
+    padding-left: 24px;
+    padding-bottom: 6px;
     border-radius: 90px;
   }
 
   .phone-pow{
     position: relative;
-    width: 476px;
-    top: 134px;
-    left: 11%
+    top: 139px;
+    left: 11%;
   }
   
   .info-p-bloque-div{
     position: relative;
     top: 194px;
     left: 100px;
-    color: white;
-    font-size: 20px;
-    line-height: 105.5%;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #FFFFFF;
   }
-  .widht-text{
-    width: 243px;
+  .width-text{
+    width: 242px;
+  }
+  .width-text2{
+    width: 224px;
   }
 
 /* FIN Primer bloque */
@@ -209,12 +221,18 @@ body{
     line-height: 21px;
     color: #969696;
   }
+  .linea{
+    width: 3px;
+    height: auto;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+  }
   .est-1-div{
     height: 711px;
   }
   .est1-img{
-    width: 103%;
-    margin-top: -107px;
+    width: 105%;
+    margin-top: -117px;
+    margin-left: -16px;
   }
   
   .estadisticas2-bg{
@@ -278,12 +296,22 @@ body{
   line-height: 29px;
   text-align: center;
   color: #000000;
-  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
  }
+ .center-padding{
+  padding-left: 8%;
+  padding-right: 8%;
+ }
+  .w-18{
+   width: 18%;
+  }
  .vent-img{
-  position: relative;
-  left: 28%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 14px;
+  display: block;
  }
  .ventajasimg-mobile{
     width: 100%;
@@ -325,7 +353,9 @@ body{
   text-decoration-line: underline;
   margin-bottom: 50px;
 }
-
+.mb-80{
+  margin-bottom: 120px;
+}
 .detail-process{
   font-size: 32px;
   line-height: 42px;
@@ -364,27 +394,6 @@ body{
     width: 61%;
   }
   
-  .desk-thumb{
-    padding-left: 21%;
-    padding-right: 21%;
-    margin-bottom: 40px;
-    margin-top: 30px;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  .desk-thumb-p{
-    color:#969696;
-    text-align: center;
-  }
-  a:active a{
-    color: blue;
-  }
-
   .background-img-div{
     background-image: url("../img/time-arr.svg");
     background-repeat: no-repeat;
@@ -511,14 +520,15 @@ body{
   }
   .btn-form-new{
     width: 262px;
-    margin-left: 22%;
     height: 47px;
-    left: 577px;
-    top: 5878px;
-    background:#0099FF!important;
+    background: #0099FF!important;
     border-radius: 65px;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   .partnerships{
     font-size: 28px;
@@ -528,12 +538,15 @@ body{
     padding-top: 100px;
     margin-top: 10px;
     width: 39%;
-    margin-left: 32%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .partnership-mobile{
-    width: 96%;
-    margin-left: 6px;
-    margin-top: 34px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 38px;
   }
 /* FIN SEPTIMO bloque */
 
@@ -544,6 +557,7 @@ body{
     background: #969696;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 70px;
   }
 
   .footer-text{
@@ -564,9 +578,9 @@ body{
   }
   .phone-pow {
     position: absolute;
-    width: 80%;
-    top: 657px;
-    left: 11%;
+    width: 86%;
+    top: 653px;
+    left: 6%;
   }
   .text-principal{
     color: white;
@@ -595,11 +609,12 @@ body{
     position: relative;
     top: 80px;
     left: -20px;
+    height: 79px;
   }
   #flechita {
     position: relative;
-    left: 289px;
-    top: 66px;
+    left: 290px;
+    top: 62px;
     width: 65px;
   }
   .info-p-bloque-div {
@@ -661,14 +676,15 @@ body{
   .preguntas-f-title{
     font-weight: normal;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
   }
   
   .preguntas-frecuentes-div{
-    width: 77%;
+    width: 85%;
     margin-top: 21%;
-    margin-left: 13%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .background-img-preguntas-frec{
@@ -697,12 +713,14 @@ body{
   }
   .contact-title{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 28px;
     color: #000000;
-    width: 67%;
-    margin-left: 16%;
+    width:313px;
+    margin-left: auto;
     text-align: center;
+    margin-right: auto;
+    margin-bottom: 35px;
   }
   .form-container {
     padding-left: 4%;
@@ -725,7 +743,7 @@ body{
 
   .btn-form-new{
     width: 253px;
-    margin-left: 57px;
+    margin-bottom: 0px;
   }
 
   .partnerships {
@@ -737,7 +755,10 @@ body{
     margin-left: 7%;
   }
   .como-funciona{
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
   }
   .footer-text{
     display: block;
@@ -761,6 +782,25 @@ body{
     line-height: 42px;
     margin-left: 10px;
     color: #0099FF;
+  }
+  .est1-img{
+    width: 108%;
+    margin-top: -158px;
+    margin-left: -15px;
+  }
+  .info-porc{
+    width: 239px;
+    margin-left: 17px;
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  .text-porc{
+    margin-top: 9px;
+    font-size: 40px;
+    margin-left: 5px;
   }
 }
 
@@ -786,9 +826,9 @@ body{
 
   #flechita{
     position: relative;
-    left: 240px;
+    left: 249px;
     top: 73px;
-    width: 65px;
+    width: 51px;
   }
   .porcentaje{
     width: 112%;
@@ -801,8 +841,5 @@ body{
     font-size: 12px;
     margin-left: 1%;
     margin-bottom: 88px;
-  }
-  .btn-form-new{
-    margin-left: 5%;
   }
 }

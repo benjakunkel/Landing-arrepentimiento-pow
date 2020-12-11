@@ -16,5 +16,11 @@ $(function() {
     });
 });
 
-// SLIDERRR
-   
+// toggle
+$(document).ready(function(){
+    $('.prueba a').click(function(){
+      $('.prueba a ').removeClass("activada");
+      $(this).addClass("activada");  
+  });
+});
+

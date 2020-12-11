@@ -1,4 +1,4 @@
-.wrap {
+  .wrap {
     width: 100%;
     max-width: 1256px;
     margin: 0 auto;
@@ -23,7 +23,7 @@
     position: relative;
     margin-bottom: 20px;
     background-color: black;
-    }
+  }
    
   .swiper-button-prev,
   .swiper-button-next {
@@ -39,9 +39,7 @@
     position: relative;
   }
   .swiper-wrapper {
-    width: 100%;
-    
-  
+    width: 100%;   
   }
   .swiper-slide {
     width: 100%;
@@ -62,5 +60,41 @@
     height: 100%;
     top: 0;
     left: 0; 
+  }
+  
+  .img-swiper{
+    opacity: 0.4;
+  }
+
+  a:hover .img-swiper{
+    opacity: 1;
+  }
+
+  .desk-thumb-p{
+    color:#969696;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .desk-thumb{
+    padding-left: 21%;
+    padding-right: 21%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .activada img{
+    opacity: 1;
+    border: 1px solid #0099FF;
+  }
+  .activada p{
+    color:  #0099FF;
   }
   
