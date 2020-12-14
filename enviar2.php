@@ -22,5 +22,3 @@ mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header("Location:index.html");
 ?>
-enviar2.php
-Mostrando enviar2.php.
