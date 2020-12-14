@@ -13,12 +13,12 @@ $mensaje = "Nombre:" . $nombre . ",\r\n";
 $empresa = "Empresa:" . $empresa . ",\r\n";
 $mensaje .= "Mail: " . $mail . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
+$fecha .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'benjamin@pow.la';
-$asunto = 'Mensaje de mi sitio web';
+$asunto = 'Nuevo contacto LANDING POW';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+mail($para, $asunto, utf8_decode($fecha), $header);
 
-header("Location:#");
+header("Location:index.html");
 ?>
