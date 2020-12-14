@@ -802,6 +802,12 @@ body{
     font-size: 40px;
     margin-left: 5px;
   }
+  .form-control{
+    height: 50px;
+  }
+  .label-2{
+    margin-bottom: 10px;
+  }
 }
 
 
